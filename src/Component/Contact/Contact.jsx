@@ -64,30 +64,30 @@ function Contact() {
             <form id="form" onSubmit={sendMessage}>
                 <div>
   <label htmlFor="">{t("contact.input1")}</label><br/>
-                <input id="name" type="text"/>
+                <input id="name" type="text" required/>
                 </div>
                 <div>
   <label htmlFor="">{t("contact.input2")}</label><br/>
-                <input id="number" type="text"/><br/>
+                <input id="number" type="text" required/><br/>
                 </div>
                 <div>
   <label htmlFor="">{t("contact.input3")}</label><br/>
-                <input id="addres" type="text"/><br/>
+                <input id="addres" type="text" required/><br/>
                 </div>
                  <div>
   <label htmlFor="">{t("contact.input4")}</label><br/>
-                <input id="email" type="text"/><br/>
+                <input id="email" type="text" required/><br/>
                  </div>
                 <div>
   <label htmlFor="">{t("contact.label")}</label><br/>
-                <input id="reques" type="text"/><br/>
+                <input id="reques" type="text" required/><br/>
                 </div>
                 <div>
   <label htmlFor="">{t("contact.label2")}</label><br/>
-                <input id="day" type="text"/><br/>
+                <input id="day" type="text" required/><br/>
                 </div>
   <label htmlFor="">{t("contact.label3")}</label><br/>
-                <input id="note" type="text"/><br/>
+                <input id="note" type="text" required/><br/>
                 <button  class="form__btn" type='submit' loading={loading}>{loading?"Is being sent...":"Submit message"}</button>
             </form>
         </div>
