@@ -42,7 +42,6 @@ function Navbar() {
                     <option value="uz">UZ</option>
                     <option value="en">EN</option>
                 </select>
-                <i onClick={openClickFunction} class="fa-solid fa-bars"></i>
                 </div>
                 <div className="buton">
                 <Button title={t("navbar.btn_t")}/>

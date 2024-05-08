@@ -8,6 +8,7 @@ import Section from './Component/Section/Section'
 import Contact from './Component/Contact/Contact'
 import Footer from './Component/Footer/Footer'
 import { useTranslation } from 'react-i18next'
+import Modal from './Component/Modal/Modal'
 
 
 
@@ -22,7 +23,11 @@ function App() {
 
   return (
     <>
+  
+  <div className="top">
+  <Modal/>
     <Navbar/>
+  </div>
     <Header/>
     <About/>
     <Main/>

@@ -46,14 +46,6 @@
     align-items:center;
 
 }
-.modal{
-    width: 300px;
-    background-color:white;
-    height:100%;
-    padding: 10px;
-    left: 0;
-    top:0;
-}
 
 
 
@@ -129,10 +121,17 @@
     .container{
       width: 90%;
     }
+   .navbar__wrapper{
+     padding-left: 50px;
+   }
+
   }
   
   @media(max-width:420px){
     .container{
       width: 95%;
+    }
+    .navbar__wrapper{
+      padding-left: 20px;
     }
   }
