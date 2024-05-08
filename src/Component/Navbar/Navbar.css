@@ -97,6 +97,9 @@
     .buton{
         display: none;
     }
+    .navbar{
+      padding-top: 25px;
+    }
   }
   
   @media(max-width:820px){
